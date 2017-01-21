@@ -1,3 +1,48 @@
+body {
+    background-image: url("Lavender.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tron {
+     background-color: #74276D;
+}
+
+.title {
+    font-size: 150px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin-top: -28px;
+    padding-left: 25px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 80px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .title {
+        font-size: 100px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .title {
+        font-size: 150px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .title {
+        font-size: 150px;
+    }
+}
+
 #myNav {
   background-color: #74276D;
   border-color: #570E51;
@@ -10,15 +55,11 @@
     background-color: #570E51;
 }
 
-.tron {
-     background-color: #74276D;
-}
-
 #navWordsPort a {
-  color: #eae4f1;
+  color: white;
 }
 #navWordsPort {
-  color: #eae4f1;
+  color: white;
 }
 
 #navWordsPort:hover {
@@ -27,7 +68,7 @@
 }
 
 #navWords a {
-    color: #eae4f1;
+    color: white;
 }
 
 #navWords a:hover {
@@ -36,4 +77,28 @@
 
 #myNavbarWords:hover {
     background-color: #570E51;
+}
+#row1 {
+    margin: 0 2px 0 2px;
+}
+
+#sectionLeft {
+    background-color: #90488A;
+    color: white;
+}
+
+#sectionCenter {
+    background-color: #AD74A8;
+    color: white;
+
+}
+
+#sectionRight {
+    background-color: rgba(58, 0, 53, .6);
+    color: white;
+}
+
+#sectionRight, #sectionCenter, #sectionLeft {
+    padding: 6px 35px 15px 35px;
+    margin-bottom: 25px;
 }
