@@ -1,11 +1,39 @@
-.navbar {
+#myNav {
   background-color: #74276D;
   border-color: #570E51;
 }
 
-#navWords a {
-  color: blue;
+#myNavButton {
+    border-color: #570E51;
 }
-#navWords {
-  color: blue;
+#myNavButton:hover {
+    background-color: #570E51;
+}
+
+.tron {
+     background-color: #74276D;
+}
+
+#navWordsPort a {
+  color: #eae4f1;
+}
+#navWordsPort {
+  color: #eae4f1;
+}
+
+#navWordsPort:hover {
+    color: #9078AD;
+    background-color: #570E51;
+}
+
+#navWords a {
+    color: #eae4f1;
+}
+
+#navWords a:hover {
+    color: #9078AD;
+}
+
+#myNavbarWords:hover {
+    background-color: #570E51;
 }
