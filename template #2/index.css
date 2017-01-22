@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }
 
-.tron {
+.nav-wrapper {
      background-color: #74276D;
 }
 
@@ -115,6 +115,15 @@ body {
     color: white;
 }
 
+.carousel {
+  margin: 25px 0 20px 0;
+
+}
+
+#imgSlide {
+
+}
+
 .carousel-indicators li {
    border-radius: 0;
 }
@@ -127,4 +136,5 @@ body {
 #sectionRight, #sectionCenter, #sectionLeft {
     padding: 6px 35px 15px 35px;
     margin-bottom: 25px;
+    border-radius: 1.5%;
 }
