@@ -1,9 +1,14 @@
+html {
+    background-color: rgb(144, 72, 138);
+}
+
 body {
     background-image: url("Lavender.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: rgb(144, 72, 138);
 }
 
 .nav-wrapper {
@@ -137,4 +142,22 @@ body {
     padding: 6px 35px 15px 35px;
     margin-bottom: 25px;
     border-radius: 1.5%;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(116, 39, 109);
+    height: 60px;
+    border: .01px solid #570E51;
+}
+
+.footer-text {
+    color: white;
+    text-align: right;
+}
+
+#div-footer {
+    padding-top: 14px;
+    padding-right: 14px;
 }
