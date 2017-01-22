@@ -21,7 +21,7 @@ body {
 /* Extra small devices (phones, up to 480px) */
 @media screen and (max-width: 767px) {
     .title {
-        font-size: 80px;
+        font-size: 100px;
     }
 }
 /* Small devices (tablets, 768px and up) */
@@ -82,9 +82,25 @@ body {
     margin: 0 2px 0 2px;
 }
 
+#profileImg {
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
 #sectionLeft {
-    background-color: #90488A;
+    background-color: rgba(50, 20, 86, .7);
     color: white;
+}
+
+.block {
+    border-color: #9078AD;
+    padding-top: 20px;
+}
+
+.cite {
+    color: rgb(144, 120, 173);
+    text-align: right;
+    text-shadow: 2px 2px 2px #1D053A;
 }
 
 #sectionCenter {
