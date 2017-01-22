@@ -1,0 +1,130 @@
+body {
+    background-image: url("Lavender.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tron {
+     background-color: #74276D;
+}
+
+.title {
+    font-size: 150px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin-top: -22px;
+    padding-left: 25px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 56px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .title {
+        font-size: 100px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .title {
+        font-size: 150px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .title {
+        font-size: 150px;
+    }
+}
+
+#myNav {
+  background-color: #74276D;
+  border-color: #570E51;
+}
+
+#myNavButton {
+    border-color: #570E51;
+}
+#myNavButton:hover {
+    background-color: #570E51;
+}
+
+#navWordsPort a {
+  color: white;
+}
+#navWordsPort {
+  color: white;
+}
+
+#navWordsPort:hover {
+    color: #9078AD;
+    background-color: #570E51;
+}
+
+#navWords a {
+    color: white;
+
+}
+
+#navWords a:hover {
+    color: #9078AD;
+}
+
+#myNavbarWords:hover {
+    background-color: #570E51;
+    border: .01px solid #6C4E90;
+}
+
+#myNavbarWords {
+
+}
+
+#row1 {
+    margin: 0 2px 0 2px;
+}
+
+#profileImg {
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
+#sectionLeft {
+    background-color: rgba(50, 20, 86, .7);
+    color: white;
+}
+
+.block {
+    border-color: #9078AD;
+    padding-top: 20px;
+}
+
+.cite {
+    color: rgb(144, 120, 173);
+    text-align: right;
+    text-shadow: 2px 2px 2px #1D053A;
+}
+
+#sectionCenter {
+    background-color: rgba(173, 116, 168, .8);
+    color: white;
+}
+
+.carousel-indicators li {
+   border-radius: 0;
+}
+
+#sectionRight {
+    background-color: rgba(58, 0, 53, .6);
+    color: white;
+}
+
+#sectionRight, #sectionCenter, #sectionLeft {
+    padding: 6px 35px 15px 35px;
+    margin-bottom: 25px;
+}
