@@ -50,6 +50,10 @@ body {
     border-radius: 1.5%;
     color:white;
 }
+#row1LeftB {
+    border-radius: 1.5%;
+    margin-bottom: 25px;
+}
 
 #blockQuote1 {
     background-color: rgba(64, 142, 47, .8);
