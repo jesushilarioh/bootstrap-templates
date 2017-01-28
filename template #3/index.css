@@ -71,3 +71,21 @@ body {
     margin: 0 2px 0 2px;
 
 }
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    height: 60px;
+    border: none;
+}
+
+.footer-text {
+    color: white;
+    text-align: right;
+}
+
+#div-footer {
+    padding-top: 14px;
+    padding-right: 14px;
+}
