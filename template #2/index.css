@@ -55,6 +55,7 @@ body {
 
 #myNavButton {
     border-color: #570E51;
+     background-color: #74276D;
 }
 #myNavButton:hover {
     background-color: #570E51;
@@ -83,7 +84,7 @@ body {
 
 #myNavbarWords:hover {
     background-color: #570E51;
-    border: .01px solid #6C4E90;
+
 }
 
 #myNavbarWords {
@@ -148,7 +149,7 @@ body {
     position: absolute;
     width: 100%;
     background-color: rgb(116, 39, 109);
-    height: 60px;
+
     border: .01px solid #570E51;
 }
 

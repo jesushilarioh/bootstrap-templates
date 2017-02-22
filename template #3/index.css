@@ -4,7 +4,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #003A21;
+    background-color: #082517;
+}
+
+#navWordsPort :hover {
+    color: #3E9F70;
+}
+#myNavbarWords :hover {
+    color: #3E9F70;
 }
 
 .title {
@@ -76,7 +83,6 @@ body {
     position: absolute;
     width: 100%;
     background-color: rgb(29, 29, 29);
-    height: 60px;
     border: none;
 }
 
